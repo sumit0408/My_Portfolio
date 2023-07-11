@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Libre+Baskerville:ital@1&family=Lora&family=Nanum+Gothic&family=Playfair+Display&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        *{  padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header{
+            height: 135vh;
+            width: 100%;
+            background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),
+                        url('images/cer_bg2.jpg');
+                        background-size: cover;
+                        color: white;
+        }
+        nav{
+            position: fixed;
+            width: 100%;
+            height: 80px;
+            background: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 0 70px;
+            font-family: 'Poppins', sans-serif
+        }
+        .logo{
+            font-size: 2em;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+        b{
+            color: #AF1E1E;
+        }
+
+        #services{
+            padding: 50px 70px;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.08);
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+        }
+        .intro h1{
+            font-size: 3rem;
+        }
+
+        .card{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 3rem;
+        }
+        .cardbody{
+            flex-basis: 42%;
+            height: 300px;
+            background: white;
+            padding: 1rem;
+            border-radius: 30px;
+            margin-top: 50px;
+            background-color: rgb(80, 7, 7);
+            box-shadow: aliceblue;
+
+        }
+        #follow i{
+        color: #AF1E1E;
+        font-size: 1.5rem;
+        margin: 0 1rem;
+        }
+        #follow b{
+            font-size: 1.25rem;
+            color: white;
+        }
+        .cert{
+            margin: 0px;
+            padding: 0px;
+            height: 265px;
+            width: 100%;
+            border-radius: 30px;
+        }
+        a{
+        text-decoration: none;
+        color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">MY Port<b>4</b>Lio</a></div>
+            <p id="follow"><b>Follow me on:</b>
+                <a href="https://www.instagram.com/__rajputsumit__/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sumit-singh-00594a274/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                <a href="https://github.com/sumit0408" target="_blank"><i class="fa fa-github"></i></a>
+            </p>
+        </nav>
+        <div>
+            <section id="services">
+                <div class="intro">
+                    <div class="card">
+                        <div class="cardbody cardimg">
+                            <a href="projects.html"><img class="cert" src="images/Port/projects.jpg" ></a>
+                        </div>
+                        <div class="cardbody cardimg">
+                            <a href="certification.html"><img class="cert" src="images/Port/certificates.jpg" ></a>
+                        </div>
+                        <div class="cardbody cardimg">
+                            <a href="internship.html"><img class="cert" src="images/Port/intership.png" ></a>
+                        </div>
+                        <div class="cardbody cardimg">
+                            <a href="academics.html"><img class="cert" src="images/Port/Academics.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+</body>
+</html>
